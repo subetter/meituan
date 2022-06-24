@@ -1,0 +1,158 @@
+ul,
+ol {
+    list-style: none;
+}
+
+ul {
+    background-color: #fefefe;
+}
+
+/*头部*/
+.wrapper {
+    background-color: #f7f7f7;
+    padding-bottom: 14vw;
+}
+
+.wrapper .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14vw;
+}
+
+.wrapper .header h2 {
+    margin-left: 3vw;
+}
+
+.wrapper .header h2 span {
+    font-size: 15px;
+}
+
+.wrapper .header svg {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 4vw;
+}
+
+.wrapper .header p {
+    color: #8a8a8a;
+    margin-left: 1vw;
+}
+
+.wrapper .header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .header .header-right {
+    margin-right: 3vw;
+}
+
+/*列表部分*/
+ul {
+    padding-bottom: 14vw;
+    margin-bottom: 14vw;
+}
+
+.wrapper ul li {
+    display: flex;
+}
+
+.wrapper ul li img {
+    width: 15vw;
+    height: 15vw;
+    margin: 3vw 0 0 3vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #f6f6f6 1px;
+}
+
+.container .right {
+    margin-left: 3vw;
+}
+
+.container .right .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container .right .top h4 {
+    color: #713d0a;
+    font-size: large;
+    font-weight: 500;
+}
+
+.container .right .top span {
+    color: #969494;
+    margin-left: 42vw;
+    font-size: 14px;
+}
+
+.container .right .bottom {
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .right .bottom span {
+    color: #969494;
+    font-size: 14px;
+}
+
+.container .right .bottom .info {
+    color: white;
+    background-color: red;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    font-size: 4vw;
+}
+
+/*底部菜单*/
+.wrapper .footer {
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: white;
+    margin-top: 0;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .footer li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+
+.wrapper .footer li p {
+    font-size: 2.8vw;
+    margin-top: 1vw;
+}
+
+.wrapper .footer li i {
+    font-size: 5vw;
+}
+
+.wrapper .footer li a {
+    text-decoration: none;
+    color: #666;
+}

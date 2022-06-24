@@ -1,0 +1,292 @@
+/*总容器部分*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14vw;
+    background-color: #f4f4f6;
+}
+
+/*header部分*/
+.wrapper .header h2 {
+    padding: 2vw 2vw;
+    background-image: url(/img/ticket/headbg.png);
+    height: 6vw;
+    padding-bottom: 3vw;
+}
+
+.wrapper .header .tickets-type {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 2vw;
+    background-color: #fdf7b8;
+    border-radius: 10px 10px;
+
+}
+
+.wrapper .header .tickets-type div:nth-child(1) {
+    border-bottom: solid 4px;
+    border-color: #ffde01;
+    padding-bottom: 2vw;
+    font-size: 22px;
+}
+
+.wrapper .header .tickets-type div:nth-child(2) {
+    color: #666;
+}
+
+.wrapper .header .tickets-type div:nth-child(3) {
+    color: #666;
+}
+
+.wrapper .header .single-double {
+    display: flex;
+    background-color: white;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.wrapper .header .single-double div {
+    margin-top: 4vw;
+    margin-bottom: 3vw;
+}
+
+.wrapper .header .single-double div:nth-child(1) {
+    border: solid 1px;
+    border-color: #ddd;
+    border-radius: 8px;
+    width: 30vw;
+    text-align: center;
+}
+
+.wrapper .header .single-double div:nth-child(2) {
+    color: #666;
+    background-color: #eee;
+    width: 30vw;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.wrapper .header .source-dest img {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+}
+
+.wrapper .header .source-dest {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wrapper .header .date {
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10vw;
+}
+
+.wrapper .header .date span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapper .header .plus {
+    padding-top: 6vw;
+    background-color: white;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .header .search {
+    background-color: white;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.wrapper .header .search button {
+    text-decoration: none;
+    background-color: #fedd2e;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 90vw;
+    height: 10vw;
+    border-radius: 40px;
+}
+
+.wrapper .middle {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 3vw;
+}
+
+.wrapper .middle .top {
+    display: flex;
+    margin-top: 1vw;
+}
+
+.wrapper .middle .top .block1 {
+    display: flex;
+    margin: 3vw;
+
+}
+
+.wrapper .middle .top .block1 svg {
+    width: 6vw;
+    height: 6vw;
+    margin-top: 2vw;
+}
+
+.wrapper .middle .top .block1 h3 {
+    padding-left: 1vw;
+}
+
+.wrapper .middle .top .block1 h3 p {
+    font-weight: 500;
+    font-size: 12px;
+    color: #999;
+    padding-left: 1vw;
+
+}
+
+.wrapper .bottom {
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 2vw;
+    margin-bottom: 4vw;
+    border-top: solid 1px;
+    border-color: #ddd;
+    padding-top: 3vw;
+    padding-left: 3vw;
+    font-size: 10px;
+    color: #444;
+}
+
+.wrapper .neimeng {
+    border-radius: 15px;
+    margin-top: 2vw;
+}
+
+/*景点选择部分*/
+.wrapper .sene {
+    margin-top: 2vw;
+    margin-bottom: 14vw;
+    padding-bottom: 14vw;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.wrapper .sene h3 {
+    margin: 4vw;
+}
+
+.wrapper .sene .content {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .sene .sene-right {
+    margin-left: 4vw;
+
+}
+
+.wrapper .sene .sene-right p {
+    margin-top: 2vw;
+    color: #666;
+    font-size: 14px;
+}
+
+.wrapper .sene .sene-right .jiage {
+    display: flex;
+    margin-top: 2vw;
+    align-items: center;
+}
+
+.wrapper .sene .sene-right .jiage img {
+    width: 8vw;
+    height: 8vw;
+}
+
+.wrapper .sene .sene-right .jiage div:nth-child(2) {
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 2vw;
+}
+
+.wrapper .sene .sene-right .jiage div:nth-child(3) {
+    border: solid 1px;
+    font-size: 10px;
+    color: #fe8b5a;
+    border-color: #f5cab5;
+    margin-right: 1vw;
+}
+
+.wrapper .sene .sene-right .jiage div:nth-child(4) {
+    border: solid 1px;
+    font-size: 10px;
+    color: #fe8b5a;
+    border-color: #f5cab5;
+    margin-right: 1vw;
+}
+
+.wrapper .space {
+    border-top: solid 1px;
+    border-color: #ddd;
+}
+
+/*底部菜单*/
+.wrapper .footer {
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: white;
+    margin-top: 0;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .footer li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+
+.wrapper .footer li p {
+    font-size: 2.8vw;
+    margin-top: 1vw;
+}
+
+.wrapper .footer li i {
+    font-size: 5vw;
+}
+
+.wrapper .footer li a {
+    text-decoration: none;
+    color: #666;
+}
